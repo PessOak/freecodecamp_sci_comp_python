@@ -56,8 +56,28 @@ Complete the Category class in budget.py. It should be able to instantiate objec
 - A list of the items in the ledger. Each line should show the description and amount. The first 23 characters of the description should be displayed, then the amount. The amount should be right aligned, contain two decimal places, and display a maximum of 7 characters.
 - A line displaying the category total.
 
-### Extra
+### Extra:
 Besides the Category class, create a function (outside of the class) called create_spend_chart that takes a list of categories as an argument. It should return a string that is a bar chart. The chart should show the percentage spent in each category passed in to the function. The percentage spent should be calculated only with withdrawals and not with deposits. Down the left side of the chart should be labels 0 - 100. The "bars" in the bar chart should be made out of the "o" character. The height of each bar should be rounded down to the nearest 10. The horizontal line below the bars should go two spaces past the final bar. Each category name should be written vertically below the bar. There should be a title at the top that says "Percentage spent by category".
 This function will be tested with up to four categories.
 
 
+## Polygon Area Calculator
+
+In this project you will use object oriented programming to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit methods and attributes.
+
+### Rectangle class
+When a Rectangle object is created, it should be initialized with width and height attributes. The class should also contain the following methods:
+
+- set_width
+- set_height
+- get_area: Returns area (width * height)
+- get_perimeter: Returns perimeter (2 * width + 2 * height)
+- get_diagonal: Returns diagonal ((width ** 2 + height ** 2) ** .5)
+- get_picture: Returns a string that represents the shape using lines of "*". The number of lines should be equal to the height and the number of "*" in each line should be equal to the width. There should be a new line (\n) at the end of each line. If the width or height is larger than 50, this should return the string: "Too big for picture.".
+- get_amount_inside: Takes another shape (square or rectangle) as an argument. Returns the number of times the passed in shape could fit inside the shape (with no rotations). For instance, a rectangle with a width of 4 and a height of 8 could fit in two squares with sides of 4.
+Additionally, if an instance of a Rectangle is represented as a string, it should look like: Rectangle(width=5, height=10)
+
+### Square class
+- The Square class should be a subclass of Rectangle. When a Square object is created, a single side length is passed in. The __init__ method should store the side length in both the width and height attributes from the - Rectangle class.
+- The Square class should be able to access the Rectangle class methods but should also contain a set_side method. If an instance of a Square is represented as a string, it should look like: Square(side=9)
+- Additionally, the set_width and set_height methods on the Square class should set both the width and height.
