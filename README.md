@@ -1,5 +1,5 @@
 # freecodecamp_sci_comp_python
-This repository contains the projects develop after completion of the course "Scientific Computing with Python" on freecodecamp.org. Here you will only find the codes there are requested for the project. The "test_module.py" and "main.py" files for each project can be found in: https://www.freecodecamp.org/learn/scientific-computing-with-python/#python-for-everybody (at the botton of the page under the title: "Scientific Computing with Python Projects").
+This repository contains the projects develop after completion of the course "Scientific Computing with Python" on freecodecamp.org. Here you will only find the codes there are requested for the project. The "test_module.py" and "main.py" files for each project can be found in: https://www.freecodecamp.org/learn/scientific-computing-with-python/#python-for-everybody (at the botton of the page under the title: "Scientific Computing with Python Projects"). All the projects were originally built on "replit.com"
 
 ## The projects are: 
 - Arithmetic Formatter
